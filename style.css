@@ -1,0 +1,81 @@
+/* Barres de navigation avec effets 3D */
+.navbar {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.navbar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Effet 3D sur le bouton de recherche */
+.search-form {
+    display: flex;
+    justify-content: end;
+    align-items: space-around;
+}
+
+.search-input {
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    border: 2px solid #04060a;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+}
+
+.search-button {
+    border-radius: 50px;
+    padding: 10px 25px;
+    background: linear-gradient(145deg, #04060a, #2854c6);
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.search-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #04060a;
+    transform: scale(1.05);
+}
+
+/* Effet d'ombre portée pour la barre de navigation */
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-image: url("https://www.francetvinfo.fr/pictures/TSfXKtThsPqnMOcpXzSCVAHEFUg/1200x900/2019/04/11/bibliotheque_helsinki_afp_2018_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+#formulaire {
+    background-color: rgba(0, 0, 0, 0.8); /* Fond légèrement transparent pour la lisibilité */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+}
